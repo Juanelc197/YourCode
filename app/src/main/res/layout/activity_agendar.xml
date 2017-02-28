@@ -20,20 +20,20 @@
         android:layout_marginBottom="13dp"
         android:id="@+id/btn_R" />
 
-    <CalendarView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/calendarView" />
-
     <Button
         android:text="Agendar cita"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/calendarView"
-        android:layout_centerHorizontal="true"
         android:id="@+id/btn_1"
-        style="@android:style/Widget.Holo.Button" />
+        style="@android:style/Widget.Holo.Button"
+        android:layout_above="@+id/btn_R"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp" />
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

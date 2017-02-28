@@ -23,6 +23,9 @@ public class InicioActivity extends AppCompatActivity {
 
         btn4 = (Button)findViewById(R.id.btn_4);
 
+
+
+
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 

@@ -12,7 +12,7 @@
     android:background="@android:color/darker_gray">
 
     <TextView
-        android:text="Bienvenidos a DentalCris esta es nuestra versión 1.0 en próximos días abra mejoras ¡No te las pierdas!"
+        android:text="Bienvenidos a DentalCris esta es nuestra versión 1.0 en próximos días habra mejoras ¡No te las pierdas!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -24,7 +24,7 @@
         android:textStyle="normal|bold" />
 
     <Button
-        android:text="Ubicasion"
+        android:text="Ubicacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
@@ -42,16 +42,6 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="Promociones"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
-        android:id="@+id/btn_3"
-        android:layout_below="@+id/btn_2"
-        android:layout_alignRight="@+id/btn_2"
-        android:layout_alignEnd="@+id/btn_2" />
-
-    <Button
         android:text="Exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,4 +51,14 @@
         style="@android:style/Widget.Holo.Button"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Promociones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/btn_3"
+        android:layout_below="@+id/btn_2"
+        android:layout_alignRight="@+id/btn_2"
+        android:layout_alignEnd="@+id/btn_2" />
 </RelativeLayout>
