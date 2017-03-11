@@ -24,7 +24,7 @@
         android:text="Mapa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="71dp"
+        android:layout_marginBottom="72dp"
         android:id="@+id/btn_1"
         android:layout_above="@+id/btn_R"
         android:layout_alignRight="@+id/btn_R"
